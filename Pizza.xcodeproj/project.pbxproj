@@ -14,6 +14,11 @@
 		100839531DD529A2004654E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100839511DD529A2004654E0 /* LaunchScreen.storyboard */; };
 		1008395E1DD529A2004654E0 /* PizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1008395D1DD529A2004654E0 /* PizzaTests.swift */; };
 		100839691DD529A2004654E0 /* PizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100839681DD529A2004654E0 /* PizzaUITests.swift */; };
+		100839771DD52BEF004654E0 /* Tamano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100839761DD52BEF004654E0 /* Tamano.swift */; };
+		100839791DD52D33004654E0 /* Masa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100839781DD52D33004654E0 /* Masa.swift */; };
+		1008397B1DD52E14004654E0 /* Queso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1008397A1DD52E14004654E0 /* Queso.swift */; };
+		1008397D1DD52EC6004654E0 /* Ingrediente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1008397C1DD52EC6004654E0 /* Ingrediente.swift */; };
+		10C766C41DD5317F00D64077 /* confirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C766C31DD5317F00D64077 /* confirmacion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		100839641DD529A2004654E0 /* PizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100839681DD529A2004654E0 /* PizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaUITests.swift; sourceTree = "<group>"; };
 		1008396A1DD529A2004654E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100839761DD52BEF004654E0 /* Tamano.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tamano.swift; sourceTree = "<group>"; };
+		100839781DD52D33004654E0 /* Masa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Masa.swift; sourceTree = "<group>"; };
+		1008397A1DD52E14004654E0 /* Queso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queso.swift; sourceTree = "<group>"; };
+		1008397C1DD52EC6004654E0 /* Ingrediente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingrediente.swift; sourceTree = "<group>"; };
+		10C766C31DD5317F00D64077 /* confirmacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = confirmacion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				1008394F1DD529A2004654E0 /* Assets.xcassets */,
 				100839511DD529A2004654E0 /* LaunchScreen.storyboard */,
 				100839541DD529A2004654E0 /* Info.plist */,
+				100839761DD52BEF004654E0 /* Tamano.swift */,
+				100839781DD52D33004654E0 /* Masa.swift */,
+				1008397A1DD52E14004654E0 /* Queso.swift */,
+				1008397C1DD52EC6004654E0 /* Ingrediente.swift */,
+				10C766C31DD5317F00D64077 /* confirmacion.swift */,
 			);
 			path = Pizza;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1008397B1DD52E14004654E0 /* Queso.swift in Sources */,
 				1008394B1DD529A2004654E0 /* ViewController.swift in Sources */,
 				100839491DD529A2004654E0 /* AppDelegate.swift in Sources */,
+				100839771DD52BEF004654E0 /* Tamano.swift in Sources */,
+				1008397D1DD52EC6004654E0 /* Ingrediente.swift in Sources */,
+				10C766C41DD5317F00D64077 /* confirmacion.swift in Sources */,
+				100839791DD52D33004654E0 /* Masa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +523,7 @@
 				1008396F1DD529A2004654E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		100839701DD529A2004654E0 /* Build configuration list for PBXNativeTarget "PizzaTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +532,7 @@
 				100839721DD529A2004654E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		100839731DD529A2004654E0 /* Build configuration list for PBXNativeTarget "PizzaUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +541,7 @@
 				100839751DD529A2004654E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
