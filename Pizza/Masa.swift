@@ -48,7 +48,6 @@ class Masa: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         print("vista masa antes de aparecer")
         Tamaño.text = tamanO
-   
     }
     override func viewDidLoad() {
         super.viewDidLoad()

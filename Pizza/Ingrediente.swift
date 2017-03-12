@@ -14,6 +14,7 @@ class Ingrediente: UIViewController {
     var quesO = "0"
     var ingrediente = 0
     
+
     @IBAction func Jamon(_ sender: Any) {
         ingrediente = 1
     }
@@ -26,6 +27,9 @@ class Ingrediente: UIViewController {
         ingrediente = 3
     }
     
+    @IBAction func Champ(_ sender: Any) {
+        ingrediente = 5
+    }
     
     @IBAction func Pepperoni(_ sender: Any) {
         ingrediente = 4
@@ -43,6 +47,8 @@ class Ingrediente: UIViewController {
             solucion = "Ingrediente de la Pizza: Piña"
         }else if ingrediente == 4 {
             solucion = "Ingrediente de la Pizza: Pepperoni"
+        }else if ingrediente == 5{
+            solucion = "Ingrediente de la Pizza: Champiñones"
         }else{
             print("Elige queso")
         }
